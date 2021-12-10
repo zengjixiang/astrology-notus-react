@@ -36,7 +36,7 @@ export default function FooterSmall(props) {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="/"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     關於我們
@@ -44,7 +44,7 @@ export default function FooterSmall(props) {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="/"
                     className="text-white hover:text-blueGray-300 text-sm font-semibold block py-1 px-3"
                   >
                     Blog
