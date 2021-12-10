@@ -10,7 +10,7 @@ export default function Register() {
               <div className="rounded-t mb-0 px-6 py-6">
                 <div className="text-center mb-3">
                   <h6 className="text-blueGray-500 text-sm font-bold">
-                    Sign up with
+                    使用第三方帳號註冊
                   </h6>
                 </div>
                 <div className="btn-wrapper text-center">
@@ -49,7 +49,7 @@ export default function Register() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      Name
+                      名稱(Name)
                     </label>
                     <input
                       type="email"
@@ -63,7 +63,7 @@ export default function Register() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      Email
+                      電子郵件信箱(Email)
                     </label>
                     <input
                       type="email"
@@ -77,7 +77,7 @@ export default function Register() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      Password
+                      密碼(Password)
                     </label>
                     <input
                       type="password"
@@ -111,7 +111,7 @@ export default function Register() {
                       className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
                     >
-                      Create Account
+                      新增帳號(Create Account)
                     </button>
                   </div>
                 </form>

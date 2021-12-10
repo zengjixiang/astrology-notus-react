@@ -15,7 +15,9 @@ import Auth from "layouts/Auth.js";
 import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Index from "views/Index.js";
+import Tutorial from "views/Tutorial.js";
 
+/** 路由器 (Router) */
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -25,6 +27,7 @@ ReactDOM.render(
       {/* add routes without layouts */}
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
+      <Route path="/tutorial" exact component={Tutorial} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />

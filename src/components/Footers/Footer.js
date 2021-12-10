@@ -1,5 +1,5 @@
 import React from "react";
-
+/** 一般網頁頁尾 */
 export default function Footer() {
   return (
     <>
@@ -67,15 +67,15 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=nr-footer"
+                        href="https://github.com/zengjixiang"
                       >
-                        About Us
+                        關於我們
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=nr-footer"
+                        href=""
                       >
                         Blog
                       </a>
@@ -83,56 +83,56 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nr-footer"
+                        href="https://github.com/zengjixiang"
                       >
                         Github
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/bootstrap-themes/free?ref=nr-footer"
                       >
                         Free Products
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Other Resources
+                    其他資源
                   </span>
                   <ul className="list-unstyled">
-                    <li>
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://github.com/creativetimofficial/notus-react/blob/main/LICENSE.md?ref=nr-footer"
                       >
                         MIT License
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/terms?ref=nr-footer"
                       >
                         Terms & Conditions
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/privacy?ref=nr-footer"
                       >
-                        Privacy Policy
+                        隱私權聲明
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=nr-footer"
+                        href=""
                       >
-                        Contact Us
+                        聯絡我們
                       </a>
                     </li>
                   </ul>
@@ -146,10 +146,10 @@ export default function Footer() {
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()} Notus React by{" "}
                 <a
-                  href="https://www.creative-tim.com?ref=nr-footer"
+                  href="https://github.com/zengjixiang"
                   className="text-blueGray-500 hover:text-blueGray-800"
                 >
-                  Creative Tim
+                  Ji-Xiang
                 </a>
                 .
               </div>
