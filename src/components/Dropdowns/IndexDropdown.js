@@ -56,6 +56,14 @@ const IndexDropdown = () => {
           設定
         </Link>
         <Link
+          to="/admin/planetInfoTables"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+        >
+          占星資訊
+        </Link>
+        <Link
           to="/admin/tables"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >

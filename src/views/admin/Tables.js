@@ -4,6 +4,8 @@ import React from "react";
 
 import CardTable from "components/Cards/CardTable.js";
 
+
+
 export default function Tables() {
   return (
     <>

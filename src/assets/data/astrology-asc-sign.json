@@ -1,0 +1,107 @@
+{
+  "ASC": [
+    {
+      "id": 1,
+      "name": "Aries",
+      "chineseName": "上昇白羊座",
+      "astrologicalSign": "♈",
+      "description": "上昇白羊座"
+    },
+    {
+      "id": 2,
+      "name": "Taurus",
+      "chineseName": "上昇金牛座",
+      "astrologicalSign": "♉",
+      "description": "上昇金牛座"
+    },
+    {
+      "id": 3,
+      "name": "Gemini",
+      "chineseName": "上昇雙子座",
+      "astrologicalSign": "♊",
+      "description": "上昇雙子座"
+    },
+    {
+      "id": 4,
+      "name": "Cancer",
+      "chineseName": "上昇巨蟹座",
+      "astrologicalSign": "♋",
+      "description": "上昇巨蟹座"
+    },
+    {
+      "id": 5,
+      "name": "Leo",
+      "chineseName": "上昇獅子座",
+      "astrologicalSign": "♌",
+      "description": "上昇獅子座"
+    },
+    {
+      "id": 6,
+      "name": "Virgo",
+      "chineseName": "上昇處女座",
+      "astrologicalSign": "♍",
+      "description": "上昇處女座"
+    },
+    {
+      "id": 7,
+      "name": "Libra",
+      "chineseName": "上昇天秤座",
+      "astrologicalSign": "♎",
+      "description": "上昇天秤座"
+    },
+    {
+      "id": 8,
+      "name": "Scorpio",
+      "chineseName": "上昇天蠍座",
+      "astrologicalSign": "♏",
+      "description": "上昇天蠍座"
+    },
+    {
+      "id": 9,
+      "name": "Sagittarius",
+      "chineseName": "上昇射手座",
+      "astrologicalSign": "♐",
+      "description": "上昇射手座"
+    },
+    {
+      "id": 10,
+      "name": "Capricorn",
+      "chineseName": "上昇摩羯座",
+      "astrologicalSign": "♑",
+      "description": "上昇摩羯座"
+    },
+    {
+      "id": 11,
+      "name": "Aquarius",
+      "chineseName": "上昇水瓶座",
+      "astrologicalSign": "♒",
+      "description": "上昇水瓶座"
+    },
+    {
+      "id": 12,
+      "name": "Pisces",
+      "chineseName": "上昇雙魚座",
+      "astrologicalSign": "♓",
+      "description": "上昇雙魚座"
+    }
+  ],
+  "DwarfPlanet": {
+    "Ceres": ["穀神星", "ʡ"],
+    "Pallas": ["智神星", "⚴"],
+    "Juno": ["婚神星", "⚵"],
+    "Vesta": ["灶神星", "⚶"],
+    "Hygiea": ["健神星", "⚕"],
+    "Chiron": ["凱龍星", "⚷"],
+    "Eris": ["鬩神星", "♁", "⧬"]
+  },
+  "color": "gold",
+  "null": null,
+  "number": 123,
+  "object": {
+    "a": "b",
+    "c": "d"
+  },
+  "functionName": "Astrology-Planet-Info",
+  "functionDescription": "行星資訊-上昇星座",
+  "version": "1.0"
+}

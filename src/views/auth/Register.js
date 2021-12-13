@@ -1,5 +1,5 @@
 import React from "react";
-
+/** 註冊 */
 export default function Register() {
   return (
     <>
@@ -49,7 +49,7 @@ export default function Register() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      名稱(Name)
+                      使用者名稱
                     </label>
                     <input
                       type="email"
@@ -77,7 +77,7 @@ export default function Register() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="grid-password"
                     >
-                      密碼(Password)
+                      密碼
                     </label>
                     <input
                       type="password"
@@ -94,13 +94,13 @@ export default function Register() {
                         className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
                       />
                       <span className="ml-2 text-sm font-semibold text-blueGray-600">
-                        I agree with the{" "}
+                        我同意 {" "}
                         <a
                           href="#pablo"
                           className="text-lightBlue-500"
                           onClick={(e) => e.preventDefault()}
                         >
-                          Privacy Policy
+                          隱私權政策
                         </a>
                       </span>
                     </label>

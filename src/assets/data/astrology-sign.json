@@ -1,0 +1,108 @@
+{
+    "sign": [
+      {
+        "id": 1,
+        "name": "Aries",
+        "chineseName": "太陽白羊座",
+        "astrologicalSign": "♈",
+        "description": "1"
+      },
+      {
+        "id": 2,
+        "name": "Taurus",
+        "chineseName": "太陽金牛座",
+        "astrologicalSign": "♉",
+        "description": "2"
+      },
+      {
+        "id": 3,
+        "name": "Gemini",
+        "chineseName": "太陽雙子座",
+        "astrologicalSign": "♊",
+        "description": "3"
+      },
+      {
+        "id": 4,
+        "name": "Cancer",
+        "chineseName": "太陽巨蟹座",
+        "astrologicalSign": "♋",
+        "description": "4"
+      },
+      {
+        "id": 5,
+        "name": "Leo",
+        "chineseName": "太陽獅子座",
+        "astrologicalSign": "♌",
+        "description": "5"
+      },
+      {
+        "id": 6,
+        "name": "Virgo",
+        "chineseName": "太陽處女座",
+        "astrologicalSign": "♍",
+        "description": "6"
+      },
+      {
+        "id": 7,
+        "name": "Libra",
+        "chineseName": "太陽天秤座",
+        "astrologicalSign": "♎",
+        "description": "7"
+      },
+      {
+        "id": 8,
+        "name": "Scorpio",
+        "chineseName": "太陽天蠍座",
+        "astrologicalSign": "♏",
+        "description": "8"
+      },
+      {
+        "id": 9,
+        "name": "Sagittarius",
+        "chineseName": "太陽射手座",
+        "astrologicalSign": "♐",
+        "description": "9"
+      },
+      {
+        "id": 10,
+        "name": "Capricorn",
+        "chineseName": "太陽摩羯座",
+        "astrologicalSign": "♑",
+        "description": "10"
+      },
+      {
+        "id": 11,
+        "name": "Aquarius",
+        "chineseName": "太陽水瓶座",
+        "astrologicalSign": "♒",
+        "description": "11"
+      },
+      {
+        "id": 12,
+        "name": "Pisces",
+        "chineseName": "太陽雙魚座",
+        "astrologicalSign": "♓",
+        "description": "12"
+      }
+    ],
+    "DwarfPlanet": {
+      "Ceres": ["穀神星", "ʡ"],
+      "Pallas": ["智神星", "⚴"],
+      "Juno": ["婚神星", "⚵"],
+      "Vesta": ["灶神星", "⚶"],
+      "Hygiea": ["健神星", "⚕"],
+      "Chiron": ["凱龍星", "⚷"],
+      "Eris": ["鬩神星", "♁", "⧬"]
+    },
+    "color": "gold",
+    "null": null,
+    "number": 123,
+    "object": {
+      "a": "b",
+      "c": "d"
+    },
+    "functionName": "Astrology-Planet-Info",
+    "functionDescription": "行星資訊",
+    "version": "1.0"
+  }
+  
