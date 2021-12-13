@@ -1,6 +1,8 @@
 ### astrology-notus-react
 ---
 
+[Notus-React 原始模板說明](https://github.com/zengjixiang/astrology-notus-react/blob/main/README_EN.md)
+
 相關線上資源
 ---
 
