@@ -24,6 +24,7 @@ import React, { useState } from "react";
 /** 占星資訊 */
 export default function CardPlanetInfoTable({ color }) {
   // const [planetInfoGroupSelect, setPlanetInfoGroupSelect] = useState("");
+  // 彈出視窗狀態 (顯示或隱藏)
   const [show, setShow] = useState(false);
 
   // useState.CardPlanetInfoTable = { showModal: true };
@@ -51,7 +52,7 @@ export default function CardPlanetInfoTable({ color }) {
                   (color === "light" ? "text-blueGray-700" : "text-white")
                 }
               >
-                Card Planet Info Table
+                占星資訊
               </h3>
             </div>
           </div>
@@ -162,14 +163,11 @@ export default function CardPlanetInfoTable({ color }) {
                   </h1>
                   <p
                     id="planetInformationResult"
-                    className="mb-5 text-sm text-blue-700 dark:text-gray-400 text-center font-normal"
+                    className="mb-4 text-sm text-blue-700 dark:text-gray-400 text-center font-normal"
                   >
                     查詢結果如下:...(功能未完成)
                   </p>
                   <div className="flex items-center justify-center w-full">
-                    <button className="focus:outline-none transition duration-150 ease-in-out hover:bg-indigo-600 bg-indigo-700 rounded text-white px-4 sm:px-8 py-2 text-xs sm:text-sm">
-                      Manage Plan
-                    </button>
                     <button
                       className="focus:outline-none ml-3 bg-blue-700 dark:bg-blue-700 dark:border-gray-700 dark:hover:bg-gray-600 transition duration-150 text-black-600 dark:text-gray-400 ease-in-out hover:border-gray-400 hover:bg-gray-300 border rounded px-8 py-2 text-sm"
                       onClick={() => setShow(!show)}
