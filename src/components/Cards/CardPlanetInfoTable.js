@@ -43,7 +43,7 @@ export default function CardPlanetInfoTable({ color }) {
           (color === "light" ? "bg-white" : "bg-lightBlue-900 text-white")
         }
       >
-        <div className="rounded-t mb-0 px-4 py-3 border-0">
+        <div className="rounded-t mb-0 px-4 py-3 border-0 flex justify-center">
           <div className="flex flex-wrap items-center">
             <div className="relative w-full px-4 max-w-full flex-grow flex-1">
               <h3
@@ -57,7 +57,7 @@ export default function CardPlanetInfoTable({ color }) {
             </div>
           </div>
         </div>
-        <div className="block w-full overflow-x-auto">
+        <div className="flex items-center justify-center w-full overflow-x-auto">
           {/* <link href="../global-styles/planetInfo.scss" rel="stylesheet" /> */}
           <div className="input-group mb-3">
             <label className="input-group-text" form="planetInfoGroupSelect">
@@ -99,18 +99,19 @@ export default function CardPlanetInfoTable({ color }) {
               <option value="Pisces">雙魚座</option>
             </select>
           </div>
+        </div>
 
-          <div class="m-auto">
-            <button
-              className="bg-blue-500 text-black text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg focus:outline-none mr-1 mb-1 transition-all duration-150"
-              onClick={() => setShow(true)}
-            >
-              開始查詢
-            </button>
-          </div>
+        <div class="flex justify-center overflow-x-auto">
+          <button
+            className="bg-blue-500 text-black text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg focus:outline-none mr-1 mb-1 transition-all duration-150"
+            onClick={() => setShow(true)}
+          >
+            開始查詢
+          </button>
+        </div>
 
-          {/* 顯示 JSON 資料  */}
-          {/* {astrology.sign.map((item, i) => {
+        {/* 顯示 JSON 資料  */}
+        {/* {astrology.sign.map((item, i) => {
         // console.log("item.name", item.name);
         // if (!item) return <div />; // 不顯示
         // if (item.name === "") return <div />; // 不顯示無效的空資料
@@ -126,7 +127,6 @@ export default function CardPlanetInfoTable({ color }) {
           </div>
         );
       })} */}
-        </div>
 
         {/* Modal content (查詢結果的彈出視窗) */}
         <div>
