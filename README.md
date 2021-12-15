@@ -6,6 +6,10 @@
 #### 相關線上資源
 ---
 
+[React 官網](https://reactjs.org/)
+
+[React 官網(繁體中文)](https://zh-hant.reactjs.org/)
+
 [TailwindUI](https://tailwindui.com/documentation)
 
 [JSON Editor Online](https://jsoneditoronline.org/)
